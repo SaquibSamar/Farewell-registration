@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Farewell Party</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Glow Effects -->
+  <div class="glow glow1"></div>
+  <div class="glow glow2"></div>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+
+    <p class="tag fade-up">FAREWELL 2026</p>
+
+    <h1 class="fade-up delay1">
+      Neon Night
+    </h1>
+
+    <p class="subtitle fade-up delay2">
+      One last night together filled with memories,
+      music and unforgettable vibes ✨
+    </p>
+
+    <button
+      class="fade-up delay3"
+      onclick="scrollToForm()"
+    >
+      Explore Event
+    </button>
+
+  </section>
+
+  <!-- FORM SECTION -->
+  <section class="form-section" id="registration">
+
+    <!-- LEFT CONTENT -->
+    <div class="left hidden">
+
+      <h2>
+        Register For The
+        <span>Farewell Party</span>
+      </h2>
+
+      <p>
+        Fill your details and upload payment screenshot
+        to confirm your entry.
+      </p>
+
+    </div>
+
+    <!-- FORM -->
+    <form id="farewellForm" class="hidden">
+
+      <input
+        type="text"
+        placeholder="Full Name"
+        required
+      >
+
+      <input
+        type="text"
+        placeholder="Phone Number"
+        required
+      >
+
+      <input
+        type="text"
+        placeholder="Course / Branch"
+        required
+      >
+
+      <input
+        type="file"
+        required
+      >
+
+      <button type="submit">
+        Confirm Registration
+      </button>
+
+    </form>
+
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
