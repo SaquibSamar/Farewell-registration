@@ -23,13 +23,13 @@ body{
 }
 
 .glow1{
-  background:#ff00aa;
+  background:#ff1493;
   top:-100px;
   left:-100px;
 }
 
 .glow2{
-  background:#00d9ff;
+  background:#ff4da6;
   bottom:-100px;
   right:-100px;
 }
@@ -47,7 +47,7 @@ body{
 
 .tag{
   letter-spacing:8px;
-  color:#00d9ff;
+  color:#ff4da6;
   margin-bottom:20px;
   font-size:14px;
 }
@@ -58,9 +58,8 @@ body{
 
   background:linear-gradient(
     90deg,
-    #ff00aa,
-    #8a2be2,
-    #00d9ff
+    #ff1493,
+    #ff4da6
   );
 
   -webkit-background-clip:text;
@@ -69,7 +68,7 @@ body{
 
 .subtitle{
   max-width:700px;
-  color:#aaa;
+  color:#b3b3b3;
   margin-top:20px;
   line-height:1.7;
   font-size:18px;
@@ -83,21 +82,19 @@ body{
 
   background:linear-gradient(
     90deg,
-    #ff00aa,
-    #8a2be2
+    #ff1493,
+    #ff4da6
   );
 
   color:white;
   font-size:18px;
+  font-weight:600;
   cursor:pointer;
   transition:0.4s;
-
-  box-shadow:0 0 30px #ff00aa;
 }
 
 .hero button:hover{
   transform:translateY(-5px) scale(1.05);
-  box-shadow:0 0 50px #ff00aa;
 }
 
 /* FORM SECTION */
@@ -119,8 +116,8 @@ body{
 
   background:linear-gradient(
     90deg,
-    #ff00aa,
-    #00d9ff
+    #ff1493,
+    #ff4da6
   );
 
   -webkit-background-clip:text;
@@ -129,7 +126,7 @@ body{
 
 .left p{
   margin-top:25px;
-  color:#aaa;
+  color:#b3b3b3;
   line-height:1.8;
   font-size:18px;
 }
@@ -142,7 +139,7 @@ form{
   border-radius:30px;
   backdrop-filter:blur(20px);
 
-  box-shadow:0 0 30px rgba(255,255,255,0.05);
+  box-shadow:0 0 30px rgba(255,255,255,0.03);
 }
 
 form input{
@@ -162,8 +159,7 @@ form input{
 }
 
 form input:focus{
-  border:1px solid #ff00aa;
-  box-shadow:0 0 20px #ff00aa;
+  border:1px solid #ff1493;
 }
 
 form button{
@@ -175,23 +171,20 @@ form button{
 
   background:linear-gradient(
     90deg,
-    #ff00aa,
-    #8a2be2,
-    #00d9ff
+    #ff1493,
+    #ff4da6
   );
 
   color:white;
   font-size:18px;
+  font-weight:600;
   cursor:pointer;
 
   transition:0.4s;
-
-  box-shadow:0 0 30px #ff00aa;
 }
 
 form button:hover{
   transform:translateY(-3px);
-  box-shadow:0 0 50px #ff00aa;
 }
 
 /* Fade Animation */
